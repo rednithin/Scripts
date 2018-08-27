@@ -5,7 +5,7 @@ yaourt -S teamviewer visual-studio-code-bin spotify ttf-fira-code mongodb-compas
 
 yarn global add nativescript create-react-app create-react-native-app create-next-app vue-cli grommet-cli eslint flow-bin concurrently http-server serve eslint eslint-plugin-vue
 
-sudo pip install ipython numpy scipy matplotlib virtualenv jupyter jupyter_contrib_nbextensions pylint jupyterlab autopep8 beautifulsoup4 scrapy pylint
+sudo pip install ipython numpy scipy matplotlib virtualenv jupyter jupyter_contrib_nbextensions pylint jupyterlab autopep8 beautifulsoup4 scrapy pylint autopep8
 jupyter contrib nbextension install --user
 jupyter nbextensions_configurator enable --user
 
