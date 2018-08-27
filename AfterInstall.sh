@@ -1,5 +1,5 @@
 
-sudo pacman -S nodejs npm yarn chromium go rustup gparted fish fisherman yaourt mongodb mongodb-tools opera kodi vim simplescreenrecorder mpv youtube-dl aria2 kipi-plugins plasma5-applets-redshift-control
+sudo pacman -S nodejs npm yarn chromium go rustup gparted fish fisherman yaourt mongodb mongodb-tools opera kodi vim simplescreenrecorder mpv youtube-dl aria2 kipi-plugins plasma5-applets-redshift-control cpanminus texlive-core texlive-bin
 
 yaourt -S teamviewer visual-studio-code-bin spotify ttf-fira-code mongodb-compass postman-bin ttf-ms-fonts --noconfirm --aur
 
@@ -21,3 +21,5 @@ sudo pacman -Syy; and sudo pacman -Suu; and sudo pacman -Syu
 
 
 yarn config set ignore-engines true
+
+sudo cpanm Log::Dispatch::File File::HomeDir Unicode::GCString YAML::Tiny Log::Log4perl
