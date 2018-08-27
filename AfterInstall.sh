@@ -19,7 +19,8 @@ set -Ux GOPATH /home/nithin/.go
 sudo pacman-mirrors -b stable
 sudo pacman -Syy; and sudo pacman -Suu; and sudo pacman -Syu
 
-
 yarn config set ignore-engines true
 
 sudo cpanm Log::Dispatch::File File::HomeDir Unicode::GCString YAML::Tiny Log::Log4perl
+
+# fisher omf/theme-edan
