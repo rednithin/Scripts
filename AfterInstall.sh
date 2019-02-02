@@ -9,10 +9,12 @@ yarn global add concurrently create-react-app create-react-native-app eslint esl
 # jupyter contrib nbextension install --user
 # jupyter nbextensions_configurator enable --user
 
+exec $SHELL -l
+
 sudo sed -i 's/\(Exec=\)/\1env GTK_THEME=Breeze /' /usr/share/applications/firefox.desktop
 sudo sed -i '$ s/\(firefox \)/\1-p private /' /usr/share/applications/firefox.desktop
 
-source .bashrc
+sudo vim /usr/share/plasma/plasmoids/org.kde.plasma.kickoff/contents/ui/FullRepresentation.qml
 
 fish
 set -U fish_greeting ""
