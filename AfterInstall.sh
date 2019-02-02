@@ -18,6 +18,7 @@ sudo sed -i '$ s/\(firefox \)/\1-p private /' /usr/share/applications/firefox.de
 sudo vim /usr/share/plasma/plasmoids/org.kde.plasma.kickoff/contents/ui/FullRepresentation.qml &&
 
 fish
+curl -L https://get.oh-my.fish | fish &&
 set -U fish_greeting "" &&
 set -U fish_user_paths $HOME/.yarn/bin $fish_user_paths &&
 set -U fish_user_paths /opt/miniconda3/bin/ $fish_user_paths &&
