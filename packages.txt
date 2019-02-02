@@ -14,8 +14,9 @@ go
 google-chrome
 gparted
 htop
-hunspell-en_AU
-hunspell-en_CA
+hunspell
+hunspell-en_US
+hunspell-en_GB
 hyper
 hyphen-en
 inkscape
