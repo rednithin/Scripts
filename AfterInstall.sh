@@ -1,27 +1,47 @@
+sudo pacman-mirrors -b stable &&
+sudo pacman -Syyuu
 
-sudo pacman -S nodejs npm yarn chromium go rustup gparted fish fisherman yaourt mongodb mongodb-tools opera kodi vim simplescreenrecorder mpv youtube-dl aria2 kipi-plugins plasma5-applets-redshift-control cpanminus texlive-core texlive-bin
+sudo pacman -S trizen yay &&
+yay --noconfirm -S - < packages.txt
 
-yaourt -S teamviewer visual-studio-code-bin spotify ttf-fira-code mongodb-compass postman-bin ttf-ms-fonts --noconfirm --aur
+yarn global add concurrently create-react-app create-react-native-app eslint eslint-plugin-vue express-generator http-server nodemon prisma vue-cli
 
-yarn global add nativescript create-react-app create-react-native-app create-next-app vue-cli grommet-cli eslint flow-bin concurrently http-server serve eslint 
-eslint-plugin-vue typescript tslint nodemon express-generator
+# jupyter contrib nbextension install --user
+# jupyter nbextensions_configurator enable --user
 
-sudo pip install ipython numpy scipy matplotlib virtualenv jupyter jupyter_contrib_nbextensions pylint jupyterlab autopep8 beautifulsoup4 scrapy pylint autopep8
-jupyter contrib nbextension install --user
-jupyter nbextensions_configurator enable --user
+sudo sed -i 's/\(Exec=\)/\1env GTK_THEME=Breeze /' /usr/share/applications/firefox.desktop
+sudo sed -i '$ s/\(firefox \)/\1-p private /' /usr/share/applications/firefox.desktop
 
-chsh
+source .bashrc
 
+fish
 set -U fish_greeting ""
-set -U fish_user_paths /home/nithin/.yarn/bin $fish_user_paths
-mkdir /home/nithin/.go
-set -Ux GOPATH /home/nithin/.go
+set -U fish_user_paths $HOME/.yarn/bin $fish_user_paths
+set -U fish_user_paths /opt/miniconda3/bin/ $fish_user_paths
+echo "source /opt/miniconda3/etc/fish/conf.d/conda.fish" >> .config/fish/config.fish
 
-sudo pacman-mirrors -b stable
-sudo pacman -Syy; and sudo pacman -Suu; and sudo pacman -Syu
+mkdir $HOME/.go &&
+set -Ux GOPATH $HOME/.go
+exit
+
+git config --global user.name "rednithin"
+git config --global user.email "reddy.nithinpg@live.com"
+
+git clone https://github.com/rednithin/Zsh $HOME &&
+ln -s $HOME/Zsh/zshrc.zsh $HOME/.zshrc
+
+# sudo cp /usr/share/icons/breeze/status/16/media-playback-* /usr/share/icons/breath/status/16/
+# sudo cp /usr/share/icons/breeze/status/22/media-playback-* /usr/share/icons/breath/status/22/
+# sudo cp /usr/share/icons/breeze/status/24/media-playback-* /usr/share/icons/breath/status/24/
 
 yarn config set ignore-engines true
 
-sudo cpanm Log::Dispatch::File File::HomeDir Unicode::GCString YAML::Tiny Log::Log4perl
+# sudo cpanm Log::Dispatch::File File::HomeDir Unicode::GCString YAML::Tiny Log::Log4perl
 
-# fisher omf/theme-edan
+mysql_install_db --user=mysql --basedir=/usr --datadir=/var/lib/mysql &&
+sudo systemctl start mariadb &&
+sudo systemctl enable mariadb &&
+mysql_secure_installation
+
+rustup toolchain install stable &&
+rustup default stable
