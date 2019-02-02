@@ -3,7 +3,7 @@ sudo pacman -Syyuu &&
 
 
 sudo pacman -S trizen yay &&
-yay --noconfirm -S - < packages.txt &&
+yay --noconfirm --needed -S - < packages.txt &&
 
 yarn global add concurrently create-react-app create-react-native-app eslint eslint-plugin-vue express-generator http-server nodemon prisma vue-cli &&
 
@@ -31,7 +31,7 @@ set -Ux GOPATH $HOME/.go &&
 git config --global user.name "rednithin" &&
 git config --global user.email "reddy.nithinpg@live.com" &&
 
-git clone https://github.com/rednithin/Zsh $HOME &&
+git clone https://github.com/rednithin/Zsh $HOME/Zsh &&
 ln -s $HOME/Zsh/zshrc.zsh $HOME/.zshrc &&
 
 # sudo cp /usr/share/icons/breeze/status/16/media-playback-* /usr/share/icons/breath/status/16/ &&
