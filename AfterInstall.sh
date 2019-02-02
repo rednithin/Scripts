@@ -17,7 +17,7 @@ sudo sed -i '$ s/\(firefox \)/\1-p private /' /usr/share/applications/firefox.de
 
 sudo vim /usr/share/plasma/plasmoids/org.kde.plasma.kickoff/contents/ui/FullRepresentation.qml &&
 
-fish
+
 curl -L https://get.oh-my.fish | fish &&
 set -U fish_greeting "" &&
 set -U fish_user_paths $HOME/.yarn/bin $fish_user_paths &&
@@ -26,7 +26,7 @@ echo "source /opt/miniconda3/etc/fish/conf.d/conda.fish" >> .config/fish/config.
 
 mkdir $HOME/.go &&
 set -Ux GOPATH $HOME/.go &&
-exit
+
 
 git config --global user.name "rednithin" &&
 git config --global user.email "reddy.nithinpg@live.com" &&
