@@ -1,5 +1,5 @@
-sudo pacman -Syyuu &&
 sudo pacman-mirrors -f 0 &&
+sudo pacman -Syyuu &&
 
 
 sudo pacman -S trizen yay &&
