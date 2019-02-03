@@ -29,6 +29,7 @@ miniconda3
 mongodb
 mongodb-compass
 nodejs
+plasma-browser-integration
 postgresql
 postman-bin
 qbittorrent

@@ -1,4 +1,4 @@
-sudo pacman-mirrors -f 0 &&
+sudo pacman-mirrors --country Singapore Indonesia Netherlands Belgium Germany Iran &&
 sudo pacman -Syyuu &&
 
 
@@ -32,7 +32,7 @@ git config --global user.name "rednithin" &&
 git config --global user.email "reddy.nithinpg@live.com" &&
 
 git clone https://github.com/rednithin/Zsh $HOME/Zsh &&
-ln -s $HOME/Zsh/zshrc.zsh $HOME/.zshrc &&
+# ln -s $HOME/Zsh/zshrc.zsh $HOME/.zshrc &&
 
 # sudo cp /usr/share/icons/breeze/status/16/media-playback-* /usr/share/icons/breath/status/16/ &&
 # sudo cp /usr/share/icons/breeze/status/22/media-playback-* /usr/share/icons/breath/status/22/ &&
