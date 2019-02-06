@@ -7,6 +7,11 @@ yay --noconfirm --needed -S - < packages.txt &&
 
 yarn global add concurrently create-react-app create-react-native-app eslint eslint-plugin-vue express-generator http-server nodemon prisma vue-cli &&
 
+# Fisher
+# curl https://git.io/fisher --create-dirs -sLo ~/.config/fish/functions/fisher.fish
+# Oh-my-fish
+# curl -L https://get.oh-my.fish | fish
+
 # jupyter contrib nbextension install --user
 # jupyter nbextensions_configurator enable --user
 
