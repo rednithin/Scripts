@@ -49,3 +49,5 @@ yarn
 yay
 youtube-dl
 zsh
+redis
+fisher
