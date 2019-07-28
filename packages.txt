@@ -52,3 +52,5 @@ zsh
 redis
 fisher
 discord
+zerotier-one
+xmind-zen

@@ -54,3 +54,6 @@ sudo mysql_secure_installation
 
 rustup toolchain install stable &&
 rustup default stable
+
+sudo cat /var/lib/zerotier-one/authtoken.secret >>.zeroTierOneAuthToken
+chmod 0600 .zeroTierOneAuthToken
