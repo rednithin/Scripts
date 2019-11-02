@@ -1,11 +1,16 @@
+antibody
 aria2
 calibre
+clion
 cpanminus
+dbeaver
 docker-compose
 etcher
 firefox-i18n-en-us
 fish
+freeoffice
 go
+goland
 google-chrome
 gparted
 htop
@@ -15,7 +20,6 @@ hunspell-en_GB
 hyper
 hyphen-en
 kipi-plugins
-libreoffice-fresh
 mariadb
 megasync
 miniconda3
