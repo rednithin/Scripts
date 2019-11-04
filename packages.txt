@@ -57,4 +57,5 @@ redis
 fisher
 discord
 zerotier-one
+zola-bin
 xmind-zen
