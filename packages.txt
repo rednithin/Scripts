@@ -2,6 +2,7 @@ antibody
 aria2
 calibre
 clion
+cloudflare-wrangler
 cpanminus
 dbeaver
 docker-compose
