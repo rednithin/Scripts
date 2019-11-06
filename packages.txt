@@ -1,6 +1,7 @@
 antibody
 aria2
 calibre
+clementine
 clion
 cloudflare-wrangler
 cpanminus
