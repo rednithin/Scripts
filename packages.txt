@@ -61,3 +61,7 @@ discord
 zerotier-one
 zola-bin
 xmind-zen
+krita
+gimp
+darktable
+inkscape
