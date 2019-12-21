@@ -69,3 +69,14 @@ virtualbox
 freeoffice
 libreoffice
 xmind-zen
+powerline-fonts-git
+nushell
+lsd
+bat
+hyperfine
+ripgrep
+alacritty
+nerd-fonts-complete
+wrk
+iperf3
+iperf
