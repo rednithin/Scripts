@@ -80,3 +80,4 @@ nerd-fonts-complete
 wrk
 iperf3
 iperf
+telegram
