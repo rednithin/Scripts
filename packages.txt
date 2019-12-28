@@ -17,7 +17,9 @@ fd
 firefox
 fish
 fisher
+flutter
 freeoffice
+genymotion
 gimp
 go
 goland
