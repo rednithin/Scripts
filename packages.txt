@@ -1,4 +1,8 @@
 alacritty
+android-emulator
+android-sdk
+android-sdk-platform-tools
+android-studio
 antibody
 aqemu
 aria2
@@ -8,6 +12,7 @@ clion
 cloudflare-wrangler
 cpanminus
 darktable
+dart
 dbeaver
 discord
 docker
