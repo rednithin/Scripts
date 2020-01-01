@@ -17,6 +17,7 @@ dbeaver
 discord
 docker
 docker-compose
+elisa
 etcher
 fd
 firefox
