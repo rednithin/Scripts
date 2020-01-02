@@ -91,3 +91,11 @@ youtube-dl
 zerotier-one
 zola-bin
 zsh
+virt-manager
+qemu
+vde2
+ebtables
+dnsmasq
+bridge-utils
+openbsd-netcat
+minikube
