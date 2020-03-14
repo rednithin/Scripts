@@ -102,3 +102,4 @@ minikube
 sqlitebrowser
 neovim
 starship-bin
+kwin-scripts-tiling
