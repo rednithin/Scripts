@@ -71,7 +71,7 @@ smplayer-skins
 smplayer-themes
 spotify
 teamviewer
-telegram
+telegram-desktop
 texlive-bin
 texlive-core
 ttf-fira-code
@@ -101,3 +101,4 @@ openbsd-netcat
 minikube
 sqlitebrowser
 neovim
+starship-bin
