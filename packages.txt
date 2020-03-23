@@ -104,3 +104,5 @@ neovim
 starship-bin
 kwin-scripts-tiling
 steam
+bombsquad
+mdcat
