@@ -57,3 +57,8 @@ rustup default stable
 
 sudo cat /var/lib/zerotier-one/authtoken.secret >>.zeroTierOneAuthToken
 chmod 0600 .zeroTierOneAuthToken
+
+cargo install cargo-watch
+cargo install cross
+cargo install cargo-expand
+cargo install cargo-edit
