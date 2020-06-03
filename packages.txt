@@ -96,4 +96,3 @@ nerd-fonts-inconsolata
 miniconda3
 google-chrome
 neofetch
-exa
