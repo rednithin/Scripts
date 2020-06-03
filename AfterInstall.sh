@@ -62,3 +62,9 @@ cargo install cargo-watch
 cargo install cross
 cargo install cargo-expand
 cargo install cargo-edit
+
+sudo systemctl start snapd
+sudo systemctl enable snapd
+
+sudo snap install multipass --classic
+sudo snap install snapcraft --classic
