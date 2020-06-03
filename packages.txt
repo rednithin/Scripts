@@ -30,7 +30,6 @@ htop
 hunspell
 hunspell-en_GB
 hunspell-en_US
-hyper
 hyperfine
 hyphen-en
 inkscape
@@ -91,9 +90,10 @@ neovim
 starship-bin
 kwin-scripts-tiling
 steam
-mdcat
 base-devel
 nerd-fonts-fira-code
 nerd-fonts-inconsolata
 miniconda3
 google-chrome
+neofetch
+exa
