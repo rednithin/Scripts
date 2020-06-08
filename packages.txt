@@ -38,7 +38,7 @@ iperf3
 kipi-plugins
 krita
 libreoffice
-linux54-virtualbox-host-modules
+linux56-virtualbox-host-modules
 lsd
 mariadb
 mongodb-bin
@@ -97,3 +97,13 @@ miniconda3
 google-chrome
 neofetch
 snapd
+pamac-snap-plugin
+pamac-flatpak-plugin
+dmenu
+xterm
+arandr
+picom
+nitrogen
+xorg-xev
+obs-studio
+kdenlive

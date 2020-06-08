@@ -68,3 +68,6 @@ sudo systemctl enable snapd
 
 sudo snap install multipass --classic
 sudo snap install snapcraft --classic
+
+sudo snap install xmind
+sudo snap install bombsquad
