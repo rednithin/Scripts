@@ -71,3 +71,4 @@ sudo snap install snapcraft --classic
 
 sudo snap install xmind
 sudo snap install bombsquad
+sudo snap install doctl
