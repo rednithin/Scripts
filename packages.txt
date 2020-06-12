@@ -107,3 +107,5 @@ nitrogen
 xorg-xev
 obs-studio
 kdenlive
+lxappearance
+i3lock
