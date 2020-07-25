@@ -38,7 +38,8 @@ iperf3
 kipi-plugins
 krita
 libreoffice
-linux56-virtualbox-host-modules
+linux57-virtualbox-host-modules
+linux54-virtualbox-host-modules
 lsd
 mariadb
 mongodb-bin
@@ -109,3 +110,16 @@ obs-studio
 kdenlive
 lxappearance
 i3lock
+certbot
+mkcert
+qtile
+terraform
+neovim
+emacs
+rust-analyzer
+xautolock
+linux54-headers
+linux57-headers
+cups
+print-manager
+system-config-printer
