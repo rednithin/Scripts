@@ -123,3 +123,5 @@ linux57-headers
 cups
 print-manager
 system-config-printer
+exa
+blender
