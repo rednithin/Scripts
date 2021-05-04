@@ -110,3 +110,9 @@ vulkan-icd-loader
 ttf-dejavu
 nodejs
 yarn
+dolphin
+kate
+paru
+pamixer
+bluez
+bluez-tools
