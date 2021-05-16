@@ -31,7 +31,7 @@ libreoffice
 lsd
 mariadb
 mongodb-bin
-nosqlbooster-mongodb
+mongodb-compass
 postgresql
 postman-bin
 qbittorrent
@@ -108,8 +108,6 @@ pacman-contrib
 flameshot
 vulkan-icd-loader
 ttf-dejavu
-nodejs
-yarn
 dolphin
 kate
 paru
