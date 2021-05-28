@@ -8,7 +8,6 @@ aria2
 bat
 calibre
 dbeaver
-discord
 docker
 docker-compose
 etcher
@@ -114,3 +113,4 @@ paru
 pamixer
 bluez
 bluez-tools
+nfs-utils
